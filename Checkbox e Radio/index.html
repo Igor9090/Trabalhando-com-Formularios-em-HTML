@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox e Radio</title>
+    <style>
+      p {
+        font-size: 18px;
+      }
+      button {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Você selecionou: Pizza de Frango c/ Bacon e Catupiry</h3>
+    <form>
+      <p>Quais Opcionais você deseja?</p>
+      <br />
+      <input type="checkbox" name="opicional[]" value="queijo" /> +Queijo<br />
+      <input type="checkbox" name="opicional[]" value="bacon" /> +Bacon<br />
+      <input
+        type="checkbox"
+        name="opicional[]"
+        value="catupiry"
+      />+Catupiry<br />
+      <input type="checkbox" name="opicional[]" value="frango" /> + Frango<br />
+      <p>Deseja colocar Borda Recheada</p>
+      <input type="radio" name="borda" value="yes" /> Sim
+      <input type="radio" name="borda" value="no" /> Não
+      <p>Bebida</p>
+      <input type="radio" name="bebida" value="suco" /> Suco <br />
+      <input type="radio" name="bebida" value="refrigerante" /> Refrigerante
+      <br />
+      <input type="radio" name="bebida" value="água" /> água <br />
+      <input type="radio" name="bebida" value="nbebida" /> Nenhum <br />
+      <button type="submit">Enviar pedido</button>
+    </form>
+  </body>
+</html>
